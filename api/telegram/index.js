@@ -81,7 +81,7 @@ module.exports = async (req, res) => {
       return res.status(400).json({
         ok: false,
         error: "Please provide a Telegram URL or username in the 'url' parameter",
-        developer: "Tofazzal Hossain"
+        developer: "Mr. Sam"
       });
     }
 
