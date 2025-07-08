@@ -175,7 +175,7 @@ module.exports = async (req, res) => {
 
       res.status(200).json({
         ok: true,
-        developer: "Tofazzal Hossain",
+        developer: "Mr. Sam",
         result
       });
 
