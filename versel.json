@@ -2,21 +2,15 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/info.js",
+      "src": "api/telegram/index.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
-      "src": "/api/info",
+      "src": "/api/telegram",
       "methods": ["GET"],
-      "dest": "/api/info.js"
+      "dest": "api/telegram/index.js"
     }
-  ],
-  "env": {
-    "BOT_TOKEN": "7921304099:AAHocBO-1nbDCiod73ZgK_UCGz0b5tXlAVI",
-    "API_ID": "25799425",
-    "API_HASH": "cf4b0a7eb77559e5146c108303a43f94",
-    "PROFILE_ERROR_URL": "https://t.me/i/userpic/320/SamOfficial007.jpg"
-  }
+  ]
 }
