@@ -1,0 +1,18 @@
+{
+  "name": "telegram-info-api",
+  "version": "1.0.0",
+  "description": "API to get comprehensive Telegram user/chat info",
+  "main": "api/info.js",
+  "scripts": {
+    "start": "node api/info.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "telegraf": "^4.12.2",
+    "moment": "^2.29.4",
+    "@vercel/node": "^2.15.3"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}
